@@ -24,7 +24,7 @@ async function bootstrap() {
     );
 
   await app.listen();
-  logger.log(`Microservices runnig on port ${envs.port}`)
+  logger.log(`Orders Microservices runnig on port ${envs.port}`)
  
 }
 bootstrap();
